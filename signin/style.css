@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+}
+
+body {
+    background-image: url(/images/brooklyn-MO5qO9xpZhA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 600px;
+    left: 194px;
+    background: linear-gradient(92.01deg, rgba(255, 255, 255, 0.02) -8.99%, rgba(255, 255, 255, 0.14) 101.74%);
+backdrop-filter: blur(40px);
+    border-radius: 30px;
+    
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Fredoka One', cursive;
+    line-height: 67px;
+    letter-spacing: 0.05em;
+    font-size: 3em;
+    color: ivory;
+    padding: 0 0 30px 0 ;
+    margin: 100px 0px 0px 0px;
+}
+
+.form {
+    max-width: 100%;
+    width: 550px;
+    height: 400px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.form-label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: sienna;
+    padding: 10px 10px 5px 0px;
+}
+
+
+#conteudo-principal-input {
+    width: 250px;
+    height: 36px;
+    border: 2px solid rgba(255, 255, 255, 0.5);;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.conteudo-principal-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    text-decoration: underline;
+    color: slategrey;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 190px; 
+    margin-top: 0px;
+}
+
+.conteudo-secundario-botao-login {
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.5);;
+    border-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: saddlebrown;
+   color: seashell;
+  
+  
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    margin-left: -40px;
+    padding: 10px;
+}
+
+.conteudo-secundario-botao-login-account {
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.5);;
+    border-radius: 5px;
+   font-size: 11px;
+   font-weight: bold;
+   background-color: saddlebrown;
+   color: seashell;
+  
+}
+
+
+
+.conteudo-lateral {
+    
+}
+
+.conteudo-lateral-imagem {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+    padding-right: 15px;
+    width: 500px;
+    border-radius: 30px;
+}
